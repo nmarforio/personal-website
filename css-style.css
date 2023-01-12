@@ -1,0 +1,13 @@
+
+h1, h3.subtitle{
+    text-align: center;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+}
+
+a{
+    color: rgb(248, 115, 62);
+}
+li
