@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css-style.css" />
     <title>Mypottery</title>
+    <style>
+      body {
+        background: url("IMG_2100.jpeg");
+      }
+    </style>
   </head>
   <body>
     <div class="title">
       <h1>Terra Nuova</h1>
       <h3 class="subtitle">Ceramic creation by Nicole Marforio</h3>
     </div>
-    <section class="Index">
-      <ul>
-        <div class="list">
-          <a class="dots" href="#aboutme"><li>About me</li></a>
-        </div>
-        <div class="list">
-          <a class="dots" href="#gallery"><li>Gallery</li></a>
-        </div>
-        <div class="list">
-          <a class="dots" href="#contact"><li>Contact</li></a>
-        </div>
-        <div class="list">
-          <a class="dots" href="#FAQ"><li>FAQ</li></a>
-        </div>
-      </ul>
-    </section>
+    <ul class="index">
+      <div class="list">
+        <a class="dots" href="#aboutme"><li>About me</li></a>
+      </div>
+      <div class="list">
+        <a class="dots" href="#gallery"><li>Gallery</li></a>
+      </div>
+      <div class="list">
+        <a class="dots" href="#contact"><li>Contact</li></a>
+      </div>
+      <div class="list">
+        <a class="dots" href="#FAQ"><li>FAQ</li></a>
+      </div>
+    </ul>
+
     <article id="aboutme">
       <h5>About me</h5>
       <p>
@@ -45,10 +49,15 @@
     <section id="contact">
       <h5>Contact</h5>
       <ul>
-        <a href="https://www.instagram.com/nicolemarforio/?next=%2F"
+        <a
+          class="dots"
+          href="https://www.instagram.com/nicolemarforio/?next=%2F"
           ><li>Instagram</li></a
         >
       </ul>
+    </section>
+    <section id="FAQ">
+      <h5>FAQ</h5>
     </section>
   </body>
 </html>
